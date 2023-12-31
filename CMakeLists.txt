@@ -8,8 +8,7 @@ FetchContent_Declare(
     civetweb
     GIT_REPOSITORY https://github.com/DeepForge-Technology/civetweb.git
 )
-FetchContent_MakeAvailable(civetweb)
-link_directories(${civetweb_BINARY_DIR}/Debug/)
+FetchContent_MakeAvailable(civetweb)S
 include_directories(${civetweb_SOURCE_DIR}/include)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 # Source files
